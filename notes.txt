@@ -1,0 +1,72 @@
+Lessons...
+  Numbers
+    decimal
+    binary
+    hexadecimal
+    how they are related, why we need to understand them all
+    Hex and binary special relationship
+  Addresses
+    MAC
+    IP (v4 and v6)
+    private, public, RFC 1918
+  Ethernet physical parts
+    Twisted pair, fiber optic
+    Switch (possibly touch on hubs)
+  Elements of an Ethernet bridge
+    Interface
+    switching/MAC table
+    bridging
+    What is happening (packet capture)
+  Elements of an IP connections
+    arp/NDP
+    DHCP, SLAAC
+    what is happening (packet capture)
+  Humans need names!  What is DNS
+    Give a history lesson?
+  Diving deeper
+    Split broadcast zones (vlans)
+  Routing
+    how routing decisions are made; precidence
+    subnets, default routes, forwarding packets (routers)
+    route tables
+    This could be all day or multiple days
+  Putting things all together
+    Building larger networks and finding what's broken
+    practical
+
+Terminology
+  bit
+  byte (octet)
+  nibble
+  binary
+  decimal
+  hexedecimal
+  Host
+  broadcast zone
+  IP address
+  MAC address
+  interface
+  route (verb, noun)
+  subnet
+  subnet mask
+  packet
+  datagram
+  Internet Protocol Suite
+    Application
+      http, ssh, dns
+    Transport
+      TCP, UDP
+    Internet
+      IP, ICMP, NDP
+    Link
+      ARP, MAC, Ethernet
+  OSI Model
+    Link layer ~ 1 and 2
+  Ethernet
+  RJ45
+  100BASE-TX
+  1000BASE-T
+  T568B T568A
+  fiber optic cable
+    Multimode
+    Singlemode

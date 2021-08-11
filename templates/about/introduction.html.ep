@@ -1,0 +1,31 @@
+% layout 'default';
+% title 'Introduction';
+<h2><%= $msg %></h2>
+<h3>About This Course and Its Notes</h3>
+<p>
+This document is meant to guide you through a course on understanding
+TCP/IP Networking with Ethernet networks connected to the Internet.
+It is comprised of sections that will
+build upon each other to build an understanding of the background fundamentals
+and practical application of small home and office networking. Academic topics
+that have limited (if any) direct relevance will be glossed over; fundamental
+topics that are often overlooked, but are needed for deep understanding, will
+receive more focus than other courses would provide.
+</p>
+<p>
+We will also explore each topic by building networks and demonstrating concepts
+using common, inexpensive equipment that is readily available and inexpensive.
+We will use a variety of equipment instead of focusing on any particular vendor
+system.
+</p>
+<p>
+These notes will also include tools to help illustrate and offer shortcuts to
+exploring more info and to demonstrate some concepts.
+</p>
+<p>
+This course is experimental...  My hope is that we can explore particular
+concepts and then directly build upon that theory with hands-on lab work is
+as real an environment as possible.  I hope to encourage discussion, move at a
+pace that keeps everyone engaged, and allow everyone the opportunity to discover
+and understand the material.
+</p>
