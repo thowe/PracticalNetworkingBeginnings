@@ -1,5 +1,6 @@
 % layout 'default';
 % title 'Introduction';
+<div id="introduction" class="main">
 <h2>Practical Networking Beginnings: An Introduction</h2>
 <h3>About This Course and Its Notes</h3>
 <p>
@@ -39,7 +40,7 @@ This may need to be divided into two sections because a discussion of binary and
 hexadecimal can be time consuming.
 In this section we will give students a working knowledge of Decimal, binary,
 and Hexadecimal number representation so that MAC and IP addressing can be more
-fully understood.  A thorough understanding of these topics can make it
+fully understood.  Lacking a thorough understanding of these topics can make it
 difficult to grasp subnets and, consequently, a great many core topics of IP
 networks.  It really is difficult to overstate the importance of this topic; it
 is often what separates the knowledgeable practitioner from everyone else.
@@ -69,3 +70,4 @@ feature improvements.  The project itself is available under the same license
 as Perl itself except for other included projects which may have licenses with
 different use and distribution requirements.
 </p>
+</div><!-- introduction -->
