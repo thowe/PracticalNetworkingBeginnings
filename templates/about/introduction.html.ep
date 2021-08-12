@@ -31,6 +31,23 @@ allow everyone the opportunity to discover and understand the material.  I will
 most likely make adjustments to the material and pacing as leading the class
 provides feedback.
 </p>
+<p>One goal of this course is that it assumes little to no prior knowledge</p>
+<h3>Course Topics</h3>
+This is subject to change as things develop.
+<h4>Numerical Systems and Addressing</h4>
+This may need to be divided into two sections because a discussion of binary and
+hexadecimal can be time consuming.
+In this section we will give students a working knowledge of Decimal, binary,
+and Hexadecimal number representation so that MAC and IP addressing can be more
+fully understood.  A thorough understanding of these topics can make it
+difficult to grasp subnets and, consequently, a great many core topics of IP
+networks.  It really is difficult to overstate the importance of this topic; it
+is often what separates the knowledgeable practitioner from everyone else.
+<p>With a core knowledge of these topics IP addresses (both IPv4 and IPv6) can be
+discussed along with netmasks and subnets.  We will also discuss MAC addresses
+which will lead into the discussion of Ethernet equipment.</p>
+<h4>Common Ethernet Equipment</h4>
+
 <h3>About This Documentation "App"</h3>
 <p>
 This course guide is written as a
