@@ -1,6 +1,6 @@
 % layout 'default';
 % title 'Introduction';
-<h2><%= $msg %></h2>
+<h2>Practical Networking Beginnings: An Introduction</h2>
 <h3>About This Course and Its Notes</h3>
 <p>
 This document is meant to guide you through a course on understanding
@@ -24,10 +24,31 @@ exploring more info and to demonstrate some concepts.
 </p>
 <p>
 This course is experimental...  My hope is that we can explore particular
-concepts and then directly build upon that theory with hands-on lab work is
-as real an environment as possible.  This course should be a group colaboration;
+concepts and then directly build upon that theory with hands-on lab work in
+as real an environment as possible.  This course should be a group collaboration;
 I hope to encourage discussion, move at a pace that keeps everyone engaged, and
 allow everyone the opportunity to discover and understand the material.  I will
 most likely make adjustments to the material and pacing as leading the class
 provides feedback.
+</p>
+<h3>About This Documentation "App"</h3>
+<p>
+This course guide is written as a
+<a href="https://mojolicious.org/">Mojolicious</a> application.  This is to
+facilitate the use of tools that may require "server-side" logic and also
+because this gives a lot of flexibility to the future direction of the Notes
+as a living document.  Mojolicious is a web application development framework
+written in <a href="https://www.perl.org/">Perl</a> and both are distributed
+free of charge under a permissive license.
+</p>
+<p>
+I will undoubtedly make use of additional software projects that may be included
+with the course guide such as <a href="https://jquery.com/">jQuery</a> and
+<a href="https://purecss.io/">Pure.css</a>
+</p>
+<p>
+This project is available on Github, and I welcome input, corrections, and
+feature improvements.  The project itself is available under the same license
+as Perl itself except for other included projects which may have licenses with
+different use and distribution requirements.
 </p>
