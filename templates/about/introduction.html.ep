@@ -1,5 +1,6 @@
 % layout 'default';
 % title 'Introduction';
+% stash 'description' => 'Introducing Practical Networking Beginnings';
 <h2>Practical Networking Beginnings: An Introduction</h2>
 <h3>About This Course and Its Notes</h3>
 <p>
