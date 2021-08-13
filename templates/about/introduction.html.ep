@@ -1,6 +1,5 @@
 % layout 'default';
 % title 'Introduction';
-% stash 'description' => 'Introducing Practical Networking Beginnings';
 <h2>Practical Networking Beginnings: An Introduction</h2>
 <h3>About This Course and Its Notes</h3>
 <p>
@@ -32,7 +31,7 @@ allow everyone the opportunity to discover and understand the material.  I will
 most likely make adjustments to the material and pacing as leading the class
 provides feedback.
 </p>
-<p>One goal of this course is that it assumes little to no prior knowledge</p>
+<p>One goal of this course is to assume little to no prior knowledge</p>
 <h3>Course Topics</h3>
 This is subject to change as things develop.
 <h4>Numerical Systems and Addressing</h4>
