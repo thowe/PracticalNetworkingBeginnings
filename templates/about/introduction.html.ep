@@ -1,7 +1,11 @@
 % layout 'default';
 % title 'Introduction';
+<div id="introduction" class="main">
+<div class="heading">
 <h2>Practical Networking Beginnings: An Introduction</h2>
 <h3>About This Course and Its Notes</h3>
+</div>
+<div class="content">
 <p>
 This document is meant to guide you through a course on understanding
 TCP/IP Networking with Ethernet networks connected to the Internet.
@@ -32,9 +36,17 @@ most likely make adjustments to the material and pacing as leading the class
 provides feedback.
 </p>
 <p>One goal of this course is to assume little to no prior knowledge</p>
+</div>
+<div class="heading">
 <h3>Course Topics</h3>
+</div>
+<div class="content">
 This is subject to change as things develop.
+</div>
+<div class="heading">
 <h4>Numerical Systems and Addressing</h4>
+</div>
+<div class="content">
 This may need to be divided into two sections because a discussion of binary and
 hexadecimal can be time consuming.
 In this section we will give students a working knowledge of Decimal, binary,
@@ -46,9 +58,16 @@ is often what separates the knowledgeable practitioner from everyone else.
 <p>With a core knowledge of these topics IP addresses (both IPv4 and IPv6) can be
 discussed along with netmasks and subnets.  We will also discuss MAC addresses
 which will lead into the discussion of Ethernet equipment.</p>
-<h4>Common Ethernet Equipment</h4>
+</div>
 
+<div class="heading">
+<h4>Common Ethernet Equipment</h4>
+</div>
+
+<div class="heading">
 <h3>About This Documentation "App"</h3>
+</div>
+<div class="content">
 <p>
 This course guide is written as a
 <a href="https://mojolicious.org/">Mojolicious</a> application.  This is to
@@ -69,4 +88,5 @@ feature improvements.  The project itself is available under the same license
 as Perl itself except for other included projects which may have licenses with
 different use and distribution requirements.
 </p>
+</div>
 </div><!-- introduction -->
