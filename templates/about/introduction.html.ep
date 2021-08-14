@@ -63,7 +63,33 @@ which will lead into the discussion of Ethernet equipment.</p>
 <div class="heading">
 <h4>Common Ethernet Equipment</h4>
 </div>
-
+<div class="content">
+<p>
+We'll discuss the various types of Ethernet cabling including Cat5/6 and the
+TIA T568A and T568B pinout standards.  We'll also have a brief discussion about
+the common types of fiber optic cable and the most commonly used connectors.
+We may terminate some cables depending on what sample materials we have.
+</p>
+<p>
+Ethernet interfaces such as network cards on PCs, switch ports, and router ports
+will be discussed.  We'll discuss some history of the various Ethernet types as
+well as discuss the basics of media settings such as speed and duplex.
+We will begin to look at the system side of Ethernet interface configuration
+and identify the MAC and IP addresses which will lead into a discussion of
+Ethernet bridging.
+</p>
+</div>
+<div class="heading">
+<h4>Ethernet Bridging</h4>
+</div>
+<div class="content">
+<p>
+We will discuss the concept of a broadcast zone and demonstrate bridging using
+switches.  We will show simplistic and complex examples, and capture some
+data on the wire to demonstrate what is happening.  We will probably also
+discuss the concept of loops and vlans.
+</p>
+</div>
 <div class="heading">
 <h3>About This Documentation "App"</h3>
 </div>
