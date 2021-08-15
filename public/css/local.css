@@ -1,6 +1,5 @@
 div.heading, div.content {
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   max-width: 768px;
 }
 
@@ -14,6 +13,7 @@ div.heading, div.content {
   position: fixed;
   top: 0;
   bottom: 0;
+  z-index: 7;
 }
 
 #navigation .pure-menu-heading {

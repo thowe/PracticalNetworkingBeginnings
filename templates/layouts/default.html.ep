@@ -5,11 +5,20 @@
     <meta charset="utf-8">
     <meta name="description" content="<%= stash 'description' %>">
     <link rel="stylesheet" href="/css/pure-min.css">
-    <link rel="stylesheet" href="/css/local.css">
+    <link rel="stylesheet" href="/css/side-menu/styles.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
+    <div id="layout">
+      <!-- Menu toggle -->
+      <a href="#menu" id="menuLink" class="menu-link">
+        <!-- Hamburger icon -->
+        <span></span>
+      </a>
 %= include 'main-menu'
-    <%= content %>
+      <div id="main">
+<%= content %>
+      </div><!-- main -->
+    </div><!-- layout -->
   </body>
 </html>

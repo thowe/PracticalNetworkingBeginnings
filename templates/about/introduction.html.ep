@@ -1,9 +1,9 @@
 % layout 'default';
 % title 'Introduction';
-<div id="introduction" class="main">
-<div class="heading">
-<h2>Practical Networking Beginnings: An Introduction</h2>
-<h3>About This Course and Its Notes</h3>
+
+<div class="header">
+  <h1>Practical Networking Beginnings: An Introduction</h1>
+  <h2>About This Course and Its Notes</h2>
 </div>
 <div class="content">
 <p>
@@ -36,17 +36,13 @@ most likely make adjustments to the material and pacing as leading the class
 provides feedback.
 </p>
 <p>One goal of this course is to assume little to no prior knowledge</p>
-</div>
-<div class="heading">
-<h3>Course Topics</h3>
-</div>
-<div class="content">
-This is subject to change as things develop.
-</div>
-<div class="heading">
-<h4>Numerical Systems and Addressing</h4>
-</div>
-<div class="content">
+
+<h2>Course Topics</h2>
+
+<p>This is subject to change as things develop.</p>
+
+<h3>Numerical Systems and Addressing</h3>
+
 This may need to be divided into two sections because a discussion of binary and
 hexadecimal can be time consuming.
 In this section we will give students a working knowledge of Decimal, Binary,
@@ -58,12 +54,9 @@ is often what separates the knowledgeable practitioner from everyone else.
 <p>With a core knowledge of these topics IP addresses (both IPv4 and IPv6) can be
 discussed along with netmasks and subnets.  We will also discuss MAC addresses
 which will lead into the discussion of Ethernet equipment.</p>
-</div>
 
-<div class="heading">
-<h4>Common Ethernet Equipment</h4>
-</div>
-<div class="content">
+<h3>Common Ethernet Equipment</h3>
+
 <p>
 We'll discuss the various types of Ethernet cabling including Cat5/6 and the
 TIA T568A and T568B pinout standards.  We'll also have a brief discussion about
@@ -82,11 +75,9 @@ We will begin to look at the system side of Ethernet interface configuration
 and identify the MAC and IP addresses which will lead into a discussion of
 Ethernet bridging.
 </p>
-</div>
-<div class="heading">
-<h4>Ethernet Bridging</h4>
-</div>
-<div class="content">
+
+<h3>Ethernet Bridging</h3>
+
 <p>
 We will discuss the concept of a broadcast zone and demonstrate bridging using
 switches.  We will show simplistic and complex examples, and capture some
@@ -101,12 +92,9 @@ discussion of TCP/IP (Layer 3 networking) across a local broadcast zone.
 This will require a longer lecture about IPv4 and IPv6 and how we think of
 them differently.
 </p>
-</div>
 
-<div class="heading">
-<h4>Basic IP Routing</h4>
-</div>
-<div class="content">
+<h3>Basic IP Routing</h3>
+
 <p>
 With a basic understanding of Ethernet broadcast zones (Layer 2) we will begin
 the discussion of routing by connecting our network to the Internet.  This will
@@ -125,9 +113,8 @@ DNS as we will have built some lab additions that make some troubleshooting
 demonstrations make sense, also we will be connected to the Internet.
 </p>
 
-<div class="heading">
-<h4>Basic tools for Discovering and troubleshooting</h4>
-</div>
+<h3>Basic tools for Discovering and troubleshooting</h3>
+
 <p>
 Once we have a network, how do we "see" it and verify it works?  We will look
 at common problems and how to spot them with basic tools.  Understanding ARP
@@ -144,10 +131,8 @@ I find the topic mostly useful for shared context when communicating about
 network topics and of limited value for beginners otherwise.
 </p>
 
-<div class="heading">
-<h3>About This Documentation "App"</h3>
-</div>
-<div class="content">
+<h2>About This Documentation "App"</h2>
+
 <p>
 This course guide is written as a
 <a href="https://mojolicious.org/">Mojolicious</a> application.  This is to
@@ -168,5 +153,5 @@ feature improvements.  The project itself is available under the same license
 as Perl itself except for other included projects which may have licenses with
 different use and distribution requirements.
 </p>
-</div>
-</div><!-- introduction -->
+
+</div><!-- content>

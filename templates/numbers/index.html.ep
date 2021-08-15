@@ -1,13 +1,12 @@
 % layout 'default';
 % title 'Numerical Systems';
-<div id="numbers" class="main">
-<div class="heading">
-<h2>Binary and Hexadecimal Numbers</h2>
-<h3>Binary As Usual</h3>
+<div class="header">
+  <h1>Binary and Hexadecimal Numbers</h1>
+  <h2>Addressing Network Stuff</h2>
 </div>
+
 <div class="content">
 <p>
 We will discuss why Binary is used and how Hexadecimal plays a part.
 </p>
-</div>
-</div><!-- numbers -->
+</div><!-- content -->
