@@ -1,0 +1,13 @@
+<div id="navigation">
+<div class="pure-menu">
+  <span class="pure-menu-heading">Sections</span>
+  <ul class="pure-menu-list">
+    <li class="pure-menu-item">
+      <a href="/" class="pure-menu-link">Introduction</a>
+    </li>
+    <li class="pure-menu-item">
+      <a href="/numbers" class="pure-menu-link">Numbers</a>
+    </li>
+  </ul>
+</div><!-- pure-menu -->
+</div><!-- navigation -->

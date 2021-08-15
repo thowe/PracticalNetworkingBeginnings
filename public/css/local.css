@@ -4,6 +4,26 @@ div.heading, div.content {
   max-width: 768px;
 }
 
+#navigation {
+  background: #191818;
+  font-weight: 400;
+  left: 160px;
+  margin-left: -160px;
+  width: 160px;
+  overflow-y: auto;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+}
+
+#navigation .pure-menu-heading {
+  color: #fff;
+  font-size: 125%;
+  letter-spacing: .1em;
+  margin-top: 0;
+  padding: .5em .8em;
+}
+
 h4 {
   text-indent: 2em;
 }
