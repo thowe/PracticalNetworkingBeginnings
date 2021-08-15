@@ -49,7 +49,7 @@ This is subject to change as things develop.
 <div class="content">
 This may need to be divided into two sections because a discussion of binary and
 hexadecimal can be time consuming.
-In this section we will give students a working knowledge of Decimal, binary,
+In this section we will give students a working knowledge of Decimal, Binary,
 and Hexadecimal number representation so that MAC and IP addressing can be more
 fully understood.  Lacking a thorough understanding of these topics can make it
 difficult to grasp subnets and, consequently, a great many core topics of IP
@@ -74,6 +74,10 @@ We may terminate some cables depending on what sample materials we have.
 Ethernet interfaces such as network cards on PCs, switch ports, and router ports
 will be discussed.  We'll discuss some history of the various Ethernet types as
 well as discuss the basics of media settings such as speed and duplex.
+We will look at and discuss switches from common vendors such as Cisco, Juniper,
+Ubiquiti, and Adtran.  We may also look at some less common types of switches
+such as Carrier Ethernet NIDs.  We will also discuss how to make other devices
+behave as switches.
 We will begin to look at the system side of Ethernet interface configuration
 and identify the MAC and IP addresses which will lead into a discussion of
 Ethernet bridging.
@@ -89,7 +93,57 @@ switches.  We will show simplistic and complex examples, and capture some
 data on the wire to demonstrate what is happening.  We will probably also
 discuss the concept of loops and vlans.
 </p>
+<p>
+This discussion will be very hands-on and interactive.  The class will assemble
+and troubleshoot different logical and physical topologies with provided
+equipment and also with their own laptops if possible.  This will begin the
+discussion of TCP/IP (Layer 3 networking) across a local broadcast zone.
+This will require a longer lecture about IPv4 and IPv6 and how we think of
+them differently.
+</p>
 </div>
+
+<div class="heading">
+<h4>Basic IP Routing</h4>
+</div>
+<div class="content">
+<p>
+With a basic understanding of Ethernet broadcast zones (Layer 2) we will begin
+the discussion of routing by connecting our network to the Internet.  This will
+allow us to begin the discussion of routing, route tables, forwarding decisions,
+and precedence.
+</p>
+<p>
+This will also allow us to create a more complex lab network by creating static
+routes and perhaps also a brief discussion of OSPF (depending on lab equipment
+capabilities).  Dynamic routing protocols may be beyond the scope of topics we
+will be able to cover.
+</p>
+<p>
+If we haven't already discussed it, this will be a good section to introduce
+DNS as we will have built some lab additions that make some troubleshooting
+demonstrations make sense, also we will be connected to the Internet.
+</p>
+
+<div class="heading">
+<h4>Basic tools for Discovering and troubleshooting</h4>
+</div>
+<p>
+Once we have a network, how do we "see" it and verify it works?  We will look
+at common problems and how to spot them with basic tools.  Understanding ARP
+and NDP will also be covered if it hasn't been by this point.  This discussion
+will probably rely heavily on looking at packet captures and creating
+interesting ways to break things, which we may try to turn into a game.
+</p>
+<p>
+This is also a good time to begin discussing Transport layer concepts such as
+TCP/UDP ports.  This can also lead into a discussion of basic security tools
+such as packet filters.  If we haven't by this point, we will probably also
+discuss the OSI and TCP/IP network models.  (7 layer OSI, 4 Layer TCP/IP).
+I find the topic mostly useful for shared context when communicating about
+network topics and of limited value for beginners otherwise.
+</p>
+
 <div class="heading">
 <h3>About This Documentation "App"</h3>
 </div>
