@@ -9,4 +9,66 @@
 <p>
 We will discuss why Binary is used and how Hexadecimal plays a part.
 </p>
+
+<h2>Number Representation Systems</h2>
+
+<h3>Decimal: Contextualizing What We Already Know</h3>
+
+<p>
+In the decimal number system, or "base 10", there are 10 symbols or digits:
+0, 1, 2, 3, 4, 5, 6, 7, 8, and 9.  However, we are not limited to only
+writing whole numbers up to 9 because decimal notation is also positional.
+When we reach the highest digit in any position we add another to the next
+position.  These positions are represented by the next highest exponentiation
+of the base.
+</p>
+<p>
+The table below shows that the first position, we'll call it the "ones" position,
+as being the right-most position, each next position to the left is
+one higher exponent of the base.  10<sup>0</sup> is 1;  in fact any number to the
+power of 0 is 1.
+</p>
+<table class="pure-table pure-table-bordered">
+  <thead>
+    <tr>
+      <th>Position</th>
+      <th>10<sup>4</sup></th>
+      <th>10<sup>3</sup></th>
+      <th>10<sup>2</sup></th>
+      <th>10<sup>1</sup></th>
+      <th>10<sup>0</sup></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>digit</td>
+      <td>6</td>
+      <td>5</td>
+      <td>5</td>
+      <td>3</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>digit x position</td>
+      <td>60000</td>
+      <td>5000</td>
+      <td>500</td>
+      <td>30</td>
+      <td>5</td>
+    </tr>
+  </tbody>
+</table>
+<p>
+6 x 10<sup>4</sup> + 5 x 10<sup>3</sup> + 5 x 10<sup>2</sup>
++ 3 x 10<sup>1</sup> + 5 x 10<sup>0</sup> = 65535
+</p>
+<p>
+This will seem obvious, and it should, but we do this reflexively...  When we
+convert to a different number base the rules won't seem as obvious at first.
+<p>
+
+<h3>Binary<h3>
+
+
+
 </div><!-- content -->
